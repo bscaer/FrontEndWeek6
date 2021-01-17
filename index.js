@@ -1,11 +1,11 @@
-const SUITS = Object.freeze({
+const SUITS = {
     1: 'SPADES',
     2: 'HEARTS',
     3: 'DIAMONDS',
     4: 'CLUBS'
-  });
+  };
 
-  const FACES = Object.freeze({
+  const FACES = {
       2: 'TWO',
       3: 'THREE',
       4: 'FOUR',
@@ -19,7 +19,7 @@ const SUITS = Object.freeze({
       12: 'QUEEN',
       13: 'KING',
       14: 'ACE'
-  });
+  };
 
 class Card {
     constructor(suit, face) {
